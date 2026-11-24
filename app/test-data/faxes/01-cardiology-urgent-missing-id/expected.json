@@ -1,0 +1,28 @@
+{
+  "title": "Cardiology referral, urgent",
+  "blurb": "Urgent only by a ticked box. Member ID left blank, and the form says an EKG is attached but no EKG page came through.",
+  "order": 1,
+  "fromFax": "(555) 201-4400",
+  "pages": 3,
+  "kind": "referral",
+  "urgency": "urgent",
+  "queue": "needs_info",
+  "fields": {
+    "patient.name": "Gerald Okafor",
+    "patient.dob": "1958-04-09",
+    "patient.phone": "5556620193",
+    "insurance.payer": "Aetna Medicare Advantage",
+    "insurance.member_id": null,
+    "referring.name": "Priya Raman",
+    "referring.npi": "1487652392",
+    "referring.practice": "Riverside Family Medicine",
+    "specialty": "Cardiology",
+    "diagnoses.0.code": "R07.89",
+    "diagnoses.1.code": "I10"
+  },
+  "flags": [
+    "missing-insurance.member_id",
+    "missing-attachment-ekg"
+  ],
+  "match": "new"
+}

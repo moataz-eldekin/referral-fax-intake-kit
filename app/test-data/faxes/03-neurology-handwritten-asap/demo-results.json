@@ -1,0 +1,133 @@
+{
+  "classify": {
+    "fax_kind": "referral",
+    "rationale": "A primary care provider is sending a patient to this specialty clinic for a neurology evaluation, with a referral form and an office visit note attached.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "cover_sheet",
+        "evidence": "ATTN: New Patient Referrals"
+      },
+      {
+        "n": 2,
+        "type": "referral_form",
+        "evidence": "OUTPATIENT SPECIALTY REFERRAL"
+      },
+      {
+        "n": 3,
+        "type": "clinical_note",
+        "evidence": "Valley Primary Care - Office Visit Note"
+      }
+    ]
+  },
+  "extract": {
+    "patient": {
+      "name": {
+        "value": "RIVERA, TOMAS",
+        "quote": "Patient name: RIVERA, TOMAS DOB: 11/02/1990",
+        "page": 2
+      },
+      "dob": {
+        "value": "1990-11-02",
+        "quote": "Patient name: RIVERA, TOMAS DOB: 11/02/1990",
+        "page": 2
+      },
+      "sex": {
+        "value": "M",
+        "quote": "Sex: M Phone: (555) 771-0934",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 771-0934",
+        "quote": "Phone: (555) 771-0934 Address: 9 Canal St",
+        "page": 2
+      },
+      "address": {
+        "value": "9 Canal St Apt 4B, Fairview, OH 44121",
+        "quote": "Address: 9 Canal St Apt 4B, Fairview, OH 44121",
+        "page": 2
+      }
+    },
+    "insurance": {
+      "payer": {
+        "value": "UnitedHealthcare Choice Plus",
+        "quote": "Insurance: UnitedHealthcare Choice Plus Member ID:",
+        "page": 2
+      },
+      "member_id": {
+        "value": "UHC90213377",
+        "quote": "Member ID: UHC90213377",
+        "page": 2
+      },
+      "group_number": {
+        "value": null,
+        "quote": null,
+        "page": null
+      }
+    },
+    "referring": {
+      "name": {
+        "value": "Hannah Weiss, MD",
+        "quote": "Referring provider: Hannah Weiss, MD NPI.",
+        "page": 2
+      },
+      "npi": {
+        "value": "1558204677",
+        "quote": "Referring provider: Hannah Weiss, MD NPI. 1558204677",
+        "page": 2
+      },
+      "practice": {
+        "value": "Valley Primary Care",
+        "quote": "Practice: Valley Primary Care Phone (555) 730-1188",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 730-1188",
+        "quote": "Practice: Valley Primary Care Phone (555) 730-1188",
+        "page": 2
+      },
+      "fax": {
+        "value": "(555) 730-1190",
+        "quote": "FROM: VALLEY PRIMARY CARE (555) 730-1190",
+        "page": 2
+      }
+    },
+    "specialty": {
+      "value": "Neurology",
+      "quote": "[X] Neurology Urgency:",
+      "page": 2
+    },
+    "urgency": {
+      "value": "urgent",
+      "quote": "pls see ASAP - new selzures x2",
+      "page": 2
+    },
+    "reason": {
+      "value": "Two witnessed episodes of generalized shaking this week, no prior history. Please evaluate.",
+      "quote": "Reason for referral: Two witnessed episodes of generalized",
+      "page": 2
+    },
+    "diagnoses": [
+      {
+        "code": {
+          "value": "R56.9",
+          "quote": "Diagnosis (ICD-10): R56.9 Unspecified convulsions",
+          "page": 2
+        },
+        "description": {
+          "value": "Unspecified convulsions",
+          "quote": "Diagnosis (ICD-10): R56.9 Unspecified convulsions",
+          "page": 2
+        }
+      }
+    ],
+    "records_said_attached": [
+      "Last office note",
+      "Labs"
+    ],
+    "pages_stated": 3,
+    "handwritten_notes": [
+      "pls see ASAP - new selzures x2 this wk!"
+    ]
+  }
+}

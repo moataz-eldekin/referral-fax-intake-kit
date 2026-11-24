@@ -1,0 +1,22 @@
+{
+  "title": "Endocrinology referral, existing patient",
+  "blurb": "The patient is already in the clinic's records as Katherine Nguyen. The fax spells it Catherine. Labs are included.",
+  "order": 5,
+  "fromFax": "(555) 919-3041",
+  "pages": 4,
+  "kind": "referral",
+  "urgency": "routine",
+  "queue": "review",
+  "fields": {
+    "patient.name": "Catherine Nguyen",
+    "patient.dob": "1972-06-15",
+    "insurance.member_id": "U58821044",
+    "referring.npi": "1903345712",
+    "specialty": "Endocrinology",
+    "diagnoses.0.code": "E04.1"
+  },
+  "flags": [
+    "possible-match"
+  ],
+  "match": "possible"
+}

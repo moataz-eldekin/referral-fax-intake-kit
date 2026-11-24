@@ -1,0 +1,48 @@
+{
+  "practice": {
+    "name": "Lakeview Specialty Clinic",
+    "fax": "(555) 318-7720",
+    "phone": "(555) 318-7700"
+  },
+  "requiredForAll": [
+    { "id": "patient.name", "label": "Patient name" },
+    { "id": "patient.dob", "label": "Patient date of birth" },
+    { "id": "patient.phone", "label": "Patient phone number" },
+    { "id": "insurance.payer", "label": "Insurance plan" },
+    { "id": "insurance.member_id", "label": "Insurance member ID" },
+    { "id": "referring.name", "label": "Referring provider name" },
+    { "id": "referring.npi", "label": "Referring provider NPI" },
+    { "id": "reason", "label": "Reason for referral" },
+    { "id": "diagnoses", "label": "Diagnosis or ICD-10 code" }
+  ],
+  "specialties": [
+    {
+      "name": "Cardiology",
+      "urgentWithinDays": 7,
+      "requiredPages": [{ "type": "clinical_note", "label": "Last office note" }],
+      "providers": ["Elena Ruiz, MD", "Samir Patel, MD"]
+    },
+    {
+      "name": "Endocrinology",
+      "urgentWithinDays": 7,
+      "requiredPages": [
+        { "type": "clinical_note", "label": "Last office note" },
+        { "type": "labs", "label": "Recent labs" }
+      ],
+      "providers": ["Grace Liu, MD"]
+    },
+    {
+      "name": "Neurology",
+      "urgentWithinDays": 3,
+      "requiredPages": [{ "type": "clinical_note", "label": "Last office note" }],
+      "providers": ["Nadia Karimi, MD"]
+    }
+  ],
+  "schedule": {
+    "days": 21,
+    "start": "09:00",
+    "end": "16:00",
+    "visitMinutes": 40,
+    "takenShare": 0.6
+  }
+}

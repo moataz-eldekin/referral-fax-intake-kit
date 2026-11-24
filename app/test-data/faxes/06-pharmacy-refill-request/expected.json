@@ -1,0 +1,11 @@
+{
+  "title": "Pharmacy refill request",
+  "blurb": "A pharmacy asking for a refill. Not a referral, so it goes to its own queue.",
+  "order": 6,
+  "fromFax": "(555) 480-1200",
+  "pages": 1,
+  "kind": "pharmacy_or_refill",
+  "queue": "other",
+  "fields": {},
+  "flags": []
+}

@@ -1,0 +1,131 @@
+{
+  "classify": {
+    "fax_kind": "referral",
+    "rationale": "An internal medicine provider is sending a patient to this specialty clinic with a referral form and an attached office note for endocrinology evaluation.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "cover_sheet",
+        "evidence": "RE: New referral - Linda Park"
+      },
+      {
+        "n": 2,
+        "type": "referral_form",
+        "evidence": "OUTPATIENT SPECIALTY REFERRAL"
+      },
+      {
+        "n": 3,
+        "type": "clinical_note",
+        "evidence": "Lakeside Internal Medicine - Office Visit Note"
+      }
+    ]
+  },
+  "extract": {
+    "patient": {
+      "name": {
+        "value": "PARK, LINDA",
+        "quote": "Patient name: PARK, LINDA DOB:",
+        "page": 2
+      },
+      "dob": {
+        "value": "1961-03-07",
+        "quote": "DOB: 3/7/61 Sex: F",
+        "page": 2
+      },
+      "sex": {
+        "value": "F",
+        "quote": "DOB: 3/7/61 Sex: F",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 318-4402",
+        "quote": "Phone: (555) 318-4402",
+        "page": 2
+      },
+      "address": {
+        "value": "77 Willow Ct, Fairview, OH 44120",
+        "quote": "Address: 77 Willow Ct, Fairview, OH 44120",
+        "page": 2
+      }
+    },
+    "insurance": {
+      "payer": {
+        "value": "Blue Cross Blue Shield PPO",
+        "quote": "Insurance: Blue Cross Blue Shield PPO Member",
+        "page": 2
+      },
+      "member_id": {
+        "value": "XJH448812307",
+        "quote": "Member ID: XJH448812307",
+        "page": 2
+      },
+      "group_number": {
+        "value": null,
+        "quote": null,
+        "page": null
+      }
+    },
+    "referring": {
+      "name": {
+        "value": "Marcus Bell, DO",
+        "quote": "Referring provider: Marcus Bell, DO NPI:",
+        "page": 2
+      },
+      "npi": {
+        "value": "1720933187",
+        "quote": "NPI: 1720933187",
+        "page": 2
+      },
+      "practice": {
+        "value": "Lakeside Internal Medicine",
+        "quote": "Practice: Lakeside Internal Medicine Phone",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 404-2210",
+        "quote": "Phone (555) 404-2210",
+        "page": 2
+      },
+      "fax": {
+        "value": "(555) 404-2299",
+        "quote": "FAX: (555) 404-2299",
+        "page": 1
+      }
+    },
+    "specialty": {
+      "value": "Endocrinology",
+      "quote": "Specialty requested: [J Cardiology X Endocrinology",
+      "page": 2
+    },
+    "urgency": {
+      "value": "routine",
+      "quote": "[DX Routine [ Urgent (seen within 7 days)",
+      "page": 2
+    },
+    "reason": {
+      "value": "Alc above goal on two agents. Please evaluate for insulin start and diabetes education.",
+      "quote": "Reason for referral: Alc above goal on",
+      "page": 2
+    },
+    "diagnoses": [
+      {
+        "code": {
+          "value": "E11.65",
+          "quote": "Diagnosis (ICD-10): E11.65 Type 2",
+          "page": 2
+        },
+        "description": {
+          "value": "Type 2 diabetes with hyperglycemia",
+          "quote": "E11.65 Type 2 diabetes with hyperglycemia",
+          "page": 2
+        }
+      }
+    ],
+    "records_said_attached": [
+      "Last office note"
+    ],
+    "pages_stated": 3,
+    "handwritten_notes": []
+  },
+  "faxBack": "Lakeview Specialty Clinic received the referral for Linda Park, date of birth 1961-03-07, and needs the items below to process it.\n- Recent labs\nPlease fax the items to (555) 318-7720."
+}

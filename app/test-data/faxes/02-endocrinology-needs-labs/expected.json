@@ -1,0 +1,22 @@
+{
+  "title": "Endocrinology referral, routine",
+  "blurb": "Complete referral with a short-form date of birth (3/7/61). Endocrinology needs recent labs and none were sent.",
+  "order": 2,
+  "fromFax": "(555) 404-2299",
+  "pages": 3,
+  "kind": "referral",
+  "urgency": "routine",
+  "queue": "needs_info",
+  "fields": {
+    "patient.name": "Linda Park",
+    "patient.dob": "1961-03-07",
+    "insurance.member_id": "XJH448812307",
+    "referring.npi": "1720933187",
+    "specialty": "Endocrinology",
+    "diagnoses.0.code": "E11.65"
+  },
+  "flags": [
+    "missing-page-labs"
+  ],
+  "match": "new"
+}

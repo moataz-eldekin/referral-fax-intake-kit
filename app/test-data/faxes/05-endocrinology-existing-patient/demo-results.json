@@ -1,0 +1,136 @@
+{
+  "classify": {
+    "fax_kind": "referral",
+    "rationale": "An NP is referring Catherine Nguyen to the clinic's endocrinology service for a thyroid nodule, with office note and labs attached.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "cover_sheet",
+        "evidence": "RE: Referral - Catherine Nguyen"
+      },
+      {
+        "n": 2,
+        "type": "referral_form",
+        "evidence": "OUTPATIENT SPECIALTY REFERRAL"
+      },
+      {
+        "n": 3,
+        "type": "clinical_note",
+        "evidence": "Harbor Health Partners - Office Visit Note"
+      },
+      {
+        "n": 4,
+        "type": "labs",
+        "evidence": "Harbor Health Partners - Lab Results"
+      }
+    ]
+  },
+  "extract": {
+    "patient": {
+      "name": {
+        "value": "NGUYEN, CATHERINE",
+        "quote": "Patient name: NGUYEN, CATHERINE DOB: 06/15/1972",
+        "page": 2
+      },
+      "dob": {
+        "value": "1972-06-15",
+        "quote": "Patient name: NGUYEN, CATHERINE DOB: 06/15/1972",
+        "page": 2
+      },
+      "sex": {
+        "value": "F",
+        "quote": "DOB: 06/15/1972 Sex: F",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 602-7781",
+        "quote": "Phone: (555) 602-7781",
+        "page": 2
+      },
+      "address": {
+        "value": "415 Lakeshore Dr, Fairview, OH 44120",
+        "quote": "Address: 415 Lakeshore Dr, Fairview, OH 44120",
+        "page": 2
+      }
+    },
+    "insurance": {
+      "payer": {
+        "value": "Cigna Open Access Plus",
+        "quote": "Insurance: Cigna Open Access Plus Member ID:",
+        "page": 2
+      },
+      "member_id": {
+        "value": "U58821044",
+        "quote": "Member ID: U58821044",
+        "page": 2
+      },
+      "group_number": {
+        "value": null,
+        "quote": null,
+        "page": null
+      }
+    },
+    "referring": {
+      "name": {
+        "value": "Ines Moreau, NP",
+        "quote": "Referring provider: Ines Moreau, NP NPI:",
+        "page": 2
+      },
+      "npi": {
+        "value": "1903345712",
+        "quote": "NPI: 1903345712",
+        "page": 2
+      },
+      "practice": {
+        "value": "Harbor Health Partners",
+        "quote": "Practice: Harbor Health Partners Phone",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 919-3040",
+        "quote": "Phone (555) 919-3040",
+        "page": 2
+      },
+      "fax": {
+        "value": "(555) 919-3041",
+        "quote": "FROM: HARBOR HEALTH PARTNERS (555) 919-3041",
+        "page": 1
+      }
+    },
+    "specialty": {
+      "value": "Endocrinology",
+      "quote": "[X] Endocrinology",
+      "page": 2
+    },
+    "urgency": {
+      "value": "routine",
+      "quote": "[J Routine [J Urgent (seen within 7 days)",
+      "page": 2
+    },
+    "reason": {
+      "value": "2.1 cm right thyroid nodule on ultrasound. Please evaluate; FNA if indicated.",
+      "quote": "Reason for referral: 2.1 cm right thyroid nodule",
+      "page": 2
+    },
+    "diagnoses": [
+      {
+        "code": {
+          "value": "E04.1",
+          "quote": "Diagnosis (ICD-10): E04.1 Nontoxic single thyroid",
+          "page": 2
+        },
+        "description": {
+          "value": "Nontoxic single thyroid nodule",
+          "quote": "E04.1 Nontoxic single thyroid nodule",
+          "page": 2
+        }
+      }
+    ],
+    "records_said_attached": [
+      "Last office note",
+      "Labs"
+    ],
+    "pages_stated": 4,
+    "handwritten_notes": []
+  }
+}

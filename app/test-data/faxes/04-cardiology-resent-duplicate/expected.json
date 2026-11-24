@@ -1,0 +1,24 @@
+{
+  "title": "Cardiology referral, sent again",
+  "blurb": "The same patient and doctor as the first fax, sent again two days later with the member ID and the EKG. A possible duplicate.",
+  "order": 4,
+  "fromFax": "(555) 201-4400",
+  "pages": 4,
+  "kind": "referral",
+  "urgency": "urgent",
+  "queue": "review",
+  "fields": {
+    "patient.name": "Gerald Okafor",
+    "patient.dob": "1958-04-09",
+    "insurance.member_id": "W274318865",
+    "referring.npi": "1487652392",
+    "specialty": "Cardiology"
+  },
+  "flags": [
+    "duplicate"
+  ],
+  "match": "new",
+  "after": [
+    "01-cardiology-urgent-missing-id"
+  ]
+}

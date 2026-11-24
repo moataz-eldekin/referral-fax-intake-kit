@@ -1,0 +1,151 @@
+{
+  "classify": {
+    "fax_kind": "referral",
+    "rationale": "A family medicine provider is sending a patient to this specialty clinic for urgent cardiology evaluation, with supporting records attached.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "cover_sheet",
+        "evidence": "RE: RESENT referral - OKAFOR, Gerald"
+      },
+      {
+        "n": 2,
+        "type": "referral_form",
+        "evidence": "OUTPATIENT SPECIALTY REFERRAL"
+      },
+      {
+        "n": 3,
+        "type": "clinical_note",
+        "evidence": "Riverside Family Medicine - Office Visit Note"
+      },
+      {
+        "n": 4,
+        "type": "ekg",
+        "evidence": "12-LEAD ECG REPORT"
+      }
+    ]
+  },
+  "extract": {
+    "patient": {
+      "name": {
+        "value": "OKAFOR, GERALD",
+        "quote": "Patient name: OKAFOR, GERALD DOB",
+        "page": 2
+      },
+      "dob": {
+        "value": "1958-04-09",
+        "quote": "DOB: 04/09/1958 Sex: M",
+        "page": 2
+      },
+      "sex": {
+        "value": "M",
+        "quote": "DOB: 04/09/1958 Sex: M",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 662-0193",
+        "quote": "Phone: (555) 662-0193",
+        "page": 2
+      },
+      "address": {
+        "value": "118 Birch Hollow Rd, Fairview, OH 44120",
+        "quote": "Address: 118 Birch Hollow Rd, Fairview, OH 44120",
+        "page": 2
+      }
+    },
+    "insurance": {
+      "payer": {
+        "value": "Aetna Medicare Advantage",
+        "quote": "Insurance: Aetna Medicare Advantage Member ID",
+        "page": 2
+      },
+      "member_id": {
+        "value": "W274318865",
+        "quote": "Member ID: W274318865",
+        "page": 2
+      },
+      "group_number": {
+        "value": null,
+        "quote": null,
+        "page": null
+      }
+    },
+    "referring": {
+      "name": {
+        "value": "Priya Raman, MD",
+        "quote": "Referring provider: Priya Raman, MD NPI",
+        "page": 2
+      },
+      "npi": {
+        "value": "1487652392",
+        "quote": "NPI: 1487652392",
+        "page": 2
+      },
+      "practice": {
+        "value": "Riverside Family Medicine",
+        "quote": "Practice: Riverside Family Medicine Phone",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 201-4411",
+        "quote": "Phone (555) 201-4411",
+        "page": 2
+      },
+      "fax": {
+        "value": "(555) 201-4400",
+        "quote": "FAX: (555) 201-4400",
+        "page": 1
+      }
+    },
+    "specialty": {
+      "value": "Cardiology",
+      "quote": "Specialty requested: [X] Cardiology",
+      "page": 2
+    },
+    "urgency": {
+      "value": "urgent",
+      "quote": "[Xl Urgent (seen within 7 days)",
+      "page": 2
+    },
+    "reason": {
+      "value": "Exertional chest tightness x 3 weeks, resolves with rest. In-office EKG 11/18: nonspecific ST-T changes. Please evaluate; consider stress testing.",
+      "quote": "Reason for referral: Exertional chest tightness x 3",
+      "page": 2
+    },
+    "diagnoses": [
+      {
+        "code": {
+          "value": "R07.89",
+          "quote": "R07.89 Other chest pain",
+          "page": 2
+        },
+        "description": {
+          "value": "Other chest pain",
+          "quote": "R07.89 Other chest pain",
+          "page": 2
+        }
+      },
+      {
+        "code": {
+          "value": "I10",
+          "quote": "110 Essential (primary) hypertension",
+          "page": 2
+        },
+        "description": {
+          "value": "Essential (primary) hypertension",
+          "quote": "110 Essential (primary) hypertension",
+          "page": 2
+        }
+      }
+    ],
+    "records_said_attached": [
+      "Last office note",
+      "EKG"
+    ],
+    "pages_stated": 4,
+    "handwritten_notes": [
+      "RE: RESENT referral - OKAFOR, Gerald",
+      "resending w/ insurance + ERG"
+    ]
+  }
+}

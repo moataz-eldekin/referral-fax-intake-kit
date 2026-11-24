@@ -1,0 +1,146 @@
+{
+  "classify": {
+    "fax_kind": "referral",
+    "rationale": "A family medicine provider is sending a patient to this specialty clinic for urgent cardiology evaluation, with a referral form and attached office note.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "cover_sheet",
+        "evidence": "RE: Referral - OKAFOR, Gerald"
+      },
+      {
+        "n": 2,
+        "type": "referral_form",
+        "evidence": "OUTPATIENT SPECIALTY REFERRAL"
+      },
+      {
+        "n": 3,
+        "type": "clinical_note",
+        "evidence": "Riverside Family Medicine - Office Visit Note"
+      }
+    ]
+  },
+  "extract": {
+    "patient": {
+      "name": {
+        "value": "OKAFOR, GERALD",
+        "quote": "Patient name: OKAFOR, GERALD DOB: 04/09/1958",
+        "page": 2
+      },
+      "dob": {
+        "value": "1958-04-09",
+        "quote": "DOB: 04/09/1958 Sex: M",
+        "page": 2
+      },
+      "sex": {
+        "value": "M",
+        "quote": "DOB: 04/09/1958 Sex: M",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 662-0193",
+        "quote": "Phone: (555) 662-0193",
+        "page": 2
+      },
+      "address": {
+        "value": "118 Birch Hollow Rd, Fairview, OH 44120",
+        "quote": "Address: 118 Birch Hollow Rd, Fairview, OH 44120",
+        "page": 2
+      }
+    },
+    "insurance": {
+      "payer": {
+        "value": "Aetna Medicare Advantage",
+        "quote": "Insurance: Aetna Medicare Advantage Member ID:",
+        "page": 2
+      },
+      "member_id": {
+        "value": null,
+        "quote": null,
+        "page": null
+      },
+      "group_number": {
+        "value": null,
+        "quote": null,
+        "page": null
+      }
+    },
+    "referring": {
+      "name": {
+        "value": "Priya Raman, MD",
+        "quote": "Referring provider: Priya Raman, MD NPI: 1487652392",
+        "page": 2
+      },
+      "npi": {
+        "value": "1487652392",
+        "quote": "Priya Raman, MD NPI: 1487652392",
+        "page": 2
+      },
+      "practice": {
+        "value": "Riverside Family Medicine",
+        "quote": "Practice: Riverside Family Medicine Phone (555) 201-4411",
+        "page": 2
+      },
+      "phone": {
+        "value": "(555) 201-4411",
+        "quote": "Practice: Riverside Family Medicine Phone (555) 201-4411",
+        "page": 2
+      },
+      "fax": {
+        "value": "(555) 201-4400",
+        "quote": "FAX: (555) 201-4400 DATE: 11/20/2026",
+        "page": 1
+      }
+    },
+    "specialty": {
+      "value": "Cardiology",
+      "quote": "Specialty requested: [X] Cardiology [J Endocrinology",
+      "page": 2
+    },
+    "urgency": {
+      "value": "urgent",
+      "quote": "Urgency: [Routine [X Urgent (seen within 7 days)",
+      "page": 2
+    },
+    "reason": {
+      "value": "Exertional chest tightness x 3 weeks, resolves with rest. In-office EKG 11/18: nonspecific ST-T changes. Please evaluate; consider stress testing.",
+      "quote": "Reason for referral: Exertional chest tightness x 3 weeks,",
+      "page": 2
+    },
+    "diagnoses": [
+      {
+        "code": {
+          "value": "R07.89",
+          "quote": "Diagnosis (ICD-10); R07.89 Other chest pain",
+          "page": 2
+        },
+        "description": {
+          "value": "Other chest pain",
+          "quote": "Diagnosis (ICD-10); R07.89 Other chest pain",
+          "page": 2
+        }
+      },
+      {
+        "code": {
+          "value": "I10",
+          "quote": "110 Essential (primary) hypertension",
+          "page": 2
+        },
+        "description": {
+          "value": "Essential (primary) hypertension",
+          "quote": "110 Essential (primary) hypertension",
+          "page": 2
+        }
+      }
+    ],
+    "records_said_attached": [
+      "Last office note",
+      "EKG"
+    ],
+    "pages_stated": 3,
+    "handwritten_notes": [
+      "Pt c/o chest tightness w/ stairs - pls see this week if possible. Thx! - PR"
+    ]
+  },
+  "faxBack": "Lakeview Specialty Clinic received the referral for Gerald Okafor (date of birth 1958-04-09) and needs the items below to process it.\n- Insurance member ID\n- EKG (listed as attached, not received)\nPlease fax these items to (555) 318-7720."
+}

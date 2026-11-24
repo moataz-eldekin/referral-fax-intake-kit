@@ -1,0 +1,13 @@
+{
+  "classify": {
+    "fax_kind": "pharmacy_or_refill",
+    "rationale": "A pharmacy is requesting refill authorization for a patient's medication.",
+    "pages": [
+      {
+        "n": 1,
+        "type": "pharmacy_request",
+        "evidence": "PRESCRIPTION REFILL AUTHORIZATION REQUEST"
+      }
+    ]
+  }
+}

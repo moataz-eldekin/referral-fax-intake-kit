@@ -1,0 +1,22 @@
+{
+  "title": "Neurology referral, ASAP in handwriting",
+  "blurb": "The Routine box is ticked, but a handwritten note on the form says to see the patient ASAP for new seizures.",
+  "order": 3,
+  "fromFax": "(555) 730-1190",
+  "pages": 3,
+  "kind": "referral",
+  "urgency": "urgent",
+  "queue": "review",
+  "fields": {
+    "patient.name": "Tomas Rivera",
+    "patient.dob": "1990-11-02",
+    "insurance.member_id": "UHC90213377",
+    "referring.npi": "1558204677",
+    "specialty": "Neurology",
+    "diagnoses.0.code": "R56.9"
+  },
+  "flags": [
+    "urgency-conflict"
+  ],
+  "match": "new"
+}

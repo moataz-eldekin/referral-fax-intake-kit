@@ -1,0 +1,23 @@
+{
+  "title": "Neurology referral, a page short",
+  "blurb": "The NPI fails the check digit test, and the cover sheet says 5 pages but only 4 came through.",
+  "order": 7,
+  "fromFax": "(555) 262-5501",
+  "pages": 4,
+  "kind": "referral",
+  "urgency": "routine",
+  "queue": "needs_info",
+  "fields": {
+    "patient.name": "Sarah Mitchell",
+    "patient.dob": "1985-01-22",
+    "insurance.member_id": "MMO7734120",
+    "referring.npi": "1234567890",
+    "specialty": "Neurology",
+    "diagnoses.0.code": "G43.909"
+  },
+  "flags": [
+    "check-referring.npi",
+    "missing-pages"
+  ],
+  "match": "new"
+}
